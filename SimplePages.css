@@ -1,0 +1,45 @@
+#PageName{
+     text-align: center;
+     padding: 30px;
+     font-size: 20px;
+     background-color: aqua;
+
+}
+
+.Page1-Contens{
+     background-color: gray;
+     min-height: 800px;
+}
+
+.Simples-Pages-1-texts{
+     text-align: center;
+     padding-top: 400px;
+}
+
+.Page2-Contens{
+     background-color: rgb(214, 211, 211);
+     min-height: 800px;
+}
+
+.Simples-Pages-2-texts{
+     text-align: center;
+     padding-top: 360px;
+}
+.Simples-Pages-2-texts-bg{
+     background-color: azure;
+     max-width: 400px;
+     padding: 30px;
+     border-radius: 20px;
+     margin-left: 38%;
+}
+
+.sub-but{
+     padding-top: 5px;
+}
+.sub-but button{
+     padding: 10px 15px;
+     background-color: aqua;
+     color: black;
+     border-radius: 10px;
+
+}

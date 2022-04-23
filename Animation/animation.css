@@ -1,74 +1,168 @@
-.ma-box{
+.ma-box {
      margin: 0 auto;
 }
+
 .flex-container {
      padding: 20px;
      display: inline-flex;
      flex-wrap: wrap;
      gap: 20px;
 }
-.flex-box{
+
+.flex-box {
      padding: 50px 100px;
      border-radius: 20px;
      color: black;
      background-color: aqua;
 }
 
-.ani-change-color:hover{
+.ani-change-color:hover {
      animation-name: change-color;
      animation-iteration-count: infinite;
      animation-duration: 4s;
 }
 
 @keyframes change-color {
-     0%   {background-color: red;}
-     25%  {background-color: yellow;}
-     50%  {background-color: blue;}
-     100% {background-color: green;}
+     0% {
+          background-color: red;
+     }
+
+     25% {
+          background-color: yellow;
+     }
+
+     50% {
+          background-color: blue;
+     }
+
+     100% {
+          background-color: green;
+     }
 }
 
-.ani-ro-180:hover{
+.ani-ro-180:hover {
      animation-name: rotate-box;
      animation-iteration-count: infinite;
      animation-duration: 1s;
 }
 
-@keyframes rotate-box{
-     0%{transform: rotate(0deg);}
-     100%{transform: rotate(180deg);}
+@keyframes rotate-box {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(180deg);
+     }
 }
 
-.ani-ro-360:hover{
+.ani-ro-360:hover {
      animation-name: rotate-box-360;
      animation-iteration-count: infinite;
      animation-duration: 2s;
 }
 
-@keyframes rotate-box-360{
-     0%{transform: rotate(0deg);}
-     100%{transform: rotate(360deg);}
+@keyframes rotate-box-360 {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(360deg);
+     }
 }
 
-.ani-pop-in:hover{
+.ani-pop-in:hover {
      animation-name: pop-in-ani;
      animation-iteration-count: infinite;
      animation-duration: 1s;
 }
 
-@keyframes pop-in-ani{
-     0%{transform: scale(0.2);}
-     100%{transform: scale(1);}
+@keyframes pop-in-ani {
+     0% {
+          transform: scale(0.2);
+     }
+
+     100% {
+          transform: scale(1);
+     }
 }
 
-.bounce-1:hover{
+.bounce-1:hover {
      animation-name: bounce-1;
-     animation-duration: 2s;
+     animation-duration: 1s;
      animation-timing-function: linear;
      animation-iteration-count: infinite;
 }
 
 @keyframes bounce-1 {
-     0%   { transform: translateY(0); }
-     50%  { transform: translateY(-100px); }
-     100% { transform: translateY(0); }
+     0% {
+          transform: translateY(0);
+     }
+
+     50% {
+          transform: translateY(-100px);
+     }
+
+     100% {
+          transform: translateY(0);
+     }
+}
+
+.ani-wiggle:hover {
+     animation-name: wiggle;
+     animation-duration: 2s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+
+     0%,
+     7% {
+          transform: rotateZ(0);
+     }
+
+     15% {
+          transform: rotateZ(-15deg);
+     }
+
+     20% {
+          transform: rotateZ(10deg);
+     }
+
+     25% {
+          transform: rotateZ(-10deg);
+     }
+
+     30% {
+          transform: rotateZ(6deg);
+     }
+
+     35% {
+          transform: rotateZ(-4deg);
+     }
+
+     40%,
+     100% {
+          transform: rotateZ(0);
+     }
+}
+
+.ani-R-to-L:hover{
+     animation-name: right-to-left;   
+     animation-duration: 2s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+}
+
+@keyframes right-to-left {
+     0%{
+          background-color: aqua;
+          color: black;
+     };
+     100%{
+          background-color: violet;
+          color: white;
+     };
 }

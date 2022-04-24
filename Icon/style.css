@@ -1,0 +1,27 @@
+body{
+    line-height: 1.5;
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .fa-user{
+        color: rgb(94, 196, 43);
+       
+    }
+    
+    .fa-youtube{
+        color: rgb(255, 0, 0);
+        
+    }
+    .fa-twitter{
+        color: rgb(55, 55, 167);
+        
+    }
+    i{
+        margin: 30px;
+     
+        
+    }

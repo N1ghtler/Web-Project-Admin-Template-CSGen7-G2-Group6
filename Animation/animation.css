@@ -40,13 +40,45 @@
      }
 }
 
-.ani-ro-180:hover {
-     animation-name: rotate-box;
+.ani-ro-45:hover {
+     animation-name: rotate-box-45;
      animation-iteration-count: infinite;
      animation-duration: 1s;
 }
 
-@keyframes rotate-box {
+@keyframes rotate-box-45 {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(45deg);
+     }
+}
+
+.ani-ro-90:hover {
+     animation-name: rotate-box-90;
+     animation-iteration-count: infinite;
+     animation-duration: 1s;
+}
+
+@keyframes rotate-box-90 {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(90deg);
+     }
+}
+
+.ani-ro-180:hover {
+     animation-name: rotate-box-180;
+     animation-iteration-count: infinite;
+     animation-duration: 1s;
+}
+
+@keyframes rotate-box-180 {
      0% {
           transform: rotate(0deg);
      }
@@ -211,3 +243,19 @@
           transform: scale(2);
      }
 }
+
+.ani-move-ltr:hover{
+     animation-name: move-ltr;
+     animation-duration: 1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+}
+
+@keyframes move-ltr {
+     0%{transform: translateX(0);}
+     25%{transform: translateX(-50px);}
+     50%{transform: translateX(0);}
+     75%{transform: translateX(50px);}
+     100%{transform: translateX(0);}
+}
+

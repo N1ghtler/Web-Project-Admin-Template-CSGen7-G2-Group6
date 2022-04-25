@@ -105,24 +105,30 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
     background-color: cadetblue;
+    
 
 }
 .navbar .logo{
     font-size: 20px;
     font-weight: 900px;
-    margin: 0 20px;
+    margin: 0 20px ;
 }
 
 .icon-bar{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+
+h1{
+    margin-left: 250px;
 }
 
 .icon-bar a{
@@ -132,10 +138,11 @@ body{
 }
 .menu-item{
     font-size: large;
-    color: black;
+    color: rgb(225, 225, 225);
     padding-top: 5px;
 }
 .icon-bar a:hover{
     border-radius: 10px;
     background-color: rgb(177, 252, 255);
 }
+

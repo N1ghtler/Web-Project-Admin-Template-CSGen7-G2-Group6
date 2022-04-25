@@ -1,0 +1,35 @@
+/* third nav*/
+*{
+    font-family: sans-serifsss;
+}
+.navbar1 {
+    width: 100%;
+    background-color: rgb(112, 14, 14);
+    overflow: auto;
+    margin: 30px 0;
+  }
+  
+  .navbar1 a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  a.active1{
+      background-color: rgb(54, 69, 69);
+  }
+  .navbar1 a:hover {
+    background-color: rgb(206, 246, 46);
+    border-radius: 10px;
+  }
+  
+
+  
+  @media screen and (max-width: 500px) {
+    .navbar1 a {
+      float: none;
+      display: block;
+    }
+  }

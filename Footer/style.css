@@ -12,7 +12,7 @@ font-family: sans-serif;
 }
 
 .footer-containter{
-    max-width: 1170px;
+    max-width: 975px;
    
     margin: auto;
 }
@@ -98,21 +98,16 @@ color: blue;
 background-color: #ffffff;
 }
 
-@media(max-width: 767px){
+@media(max-width: 200px){
     
 .footer-col{
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
+   
 }
 }
 
-@media(max-width: 574px){
-    
-    .footer-col{
-        width: 100%;
-     
-    }
-    }
+
 
 
 

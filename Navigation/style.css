@@ -30,10 +30,11 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    background-color: rgb(121, 119, 119);
 }
 
-a:hover, a.active{
-    background: rgb(140, 224, 230);
+a:hover{
+    background: rgb(109, 245, 255);
     transition: 1s;
 }
 
@@ -97,3 +98,51 @@ a:hover, a.active{
     }
 
 }
+
+/*second nav2*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    
+
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: 900px;
+    margin: 0 20px ;
+}
+
+.icon-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+h1{
+    margin-left: 250px;
+}
+
+.icon-bar a{
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+.menu-item{
+    font-size: large;
+    color: rgb(225, 225, 225);
+    padding-top: 5px;
+}
+.icon-bar a:hover{
+    border-radius: 10px;
+    background-color: rgb(177, 252, 255);
+}
+

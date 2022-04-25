@@ -8,6 +8,13 @@ body{
         margin: 0;
         box-sizing: border-box;
     }
+
+    i{
+        margin: 30px;
+
+        
+    }
+
     .fa-user{
         color: rgb(94, 196, 43);
        
@@ -21,9 +28,75 @@ body{
         color: rgb(55, 55, 167);
         
     }
-    i{
-        margin: 30px;
-     
-        
+
+    .fa-twitch{
+        color: aqua;
     }
+    .fa-hashtag{
+        color: aquamarine;
+    }
+
+    .fa-house{
+        color: blueviolet;
+    }
+    .fa-house-signal{
+        color: brown;
+    }
+    .fa-telegram{
+        color: chartreuse;
+    }
+    .fa-igloo{
+        color: chocolate;
+    }
+
+    .fa-arrow-pointer{
+       color: darkolivegreen;
+    }
+
+    .fa-mobile-button{
+        color: crimson;
+    }
+    .fa-pizza-slice{
+        color: darkgoldenrod;
+    }
+    .fa-skull{
+        color: darkred;
+    }
+
+    .fa-battle-net{
+        color:darkmagenta;
+    }
+
+    .fa-pinterest{
+        color: deeppink;
+    }
+
+    .fa-shuttle-space{
+        color: darkgreen;
+    }
+    .fa-registered{
+        color: darksalmon;
+    }
+    .fa-drum-steelpan{
+        color: goldenrod;
+    }
+    .fa-bolt {
+        color: lightpink;
+    }
+    .fa-itunes-note {
+        color: greenyellow;
+    }
+    .fa-elementor {
+        color: firebrick;
+    }
+    .fa-elevator{
+        color: darkmagenta;
+    }
+    .fa-atom{
+        color: rgb(226, 202, 19);
+    }
+    .fa-tv{
+        color: rgb(136, 109, 255);
+    }
+  
     

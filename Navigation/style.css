@@ -32,7 +32,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-label.logo a:hover, label.logo a.active{
+a:hover, a.active{
     background: rgb(140, 224, 230);
     transition: 1s;
 }
@@ -87,7 +87,7 @@ label.logo a:hover, label.logo a.active{
         font-size: 20px;
     }
 
-    label.logo a:hover, label.logo a.active{
+    a:hover, a.active{
         background: none;
         color: rgb(108, 199, 188);
     }

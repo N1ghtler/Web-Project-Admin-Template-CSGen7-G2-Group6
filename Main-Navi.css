@@ -1,53 +1,61 @@
-.main-nav{
+.main-nav {
      margin: 0 auto;
      background-color: aqua;
      border-radius: 20px;
      font-size: 20px;
      padding: 10px;
 }
-.flex-nav{
+
+.flex-nav {
      display: flex;
      justify-items: center;
      justify-content: space-evenly;
 }
 
-.Logo span{
+.Logo span {
      font-size: 30px;
 }
-.Nav-Links ul{
+
+.Nav-Links ul {
      list-style: none;
      justify-items: center;
      display: inline-flex;
 }
-.Nav-Links ul li{
+
+.Nav-Links ul li {
      padding-right: 20px;
 }
-.Nav-Links ul li a{
+
+.Nav-Links ul li a {
      text-decoration: none;
      padding: 20px;
      border-radius: 10px;
      background-color: white;
-     color:black;
+     color: black;
 }
-.Nav-Links ul li a:hover{
+
+.Nav-Links ul li a:hover {
      background-color: black;
      color: white;
      transition: 1s;
 }
 
-.Nav-drop{
+.Nav-drop {
      display: none;
      position: absolute;
      padding-top: 30px;
      z-index: 1;
 }
 
-.Nav-drop a{
+.Nav-drop a {
      text-decoration: none;
-     color:black;
+     color: black;
      padding: 20px;
      display: block;
      text-align: center;
 }
 
-#Droper:hover .Nav-drop{display: block;}
+#Droper:hover .Nav-drop {
+     display: block;
+     background-color: white;
+}

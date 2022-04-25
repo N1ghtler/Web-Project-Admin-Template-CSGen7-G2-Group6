@@ -116,6 +116,7 @@
 .table6 th{
     background-color: skyblue;
     color: white;
+    height: 40px;
     position: sticky;
     top: -1px;
 }
@@ -131,6 +132,11 @@
     padding: 0 20px;
     text-align: left;
 }
+.table7 th{
+    height: 35px;
+    background-color: rgb(12, 190, 131);
+    color: white;
+}
 /* Contextual Table */
 /* Responsive Table */
 .table8 th, .table8 td{
@@ -142,5 +148,12 @@
 }
 .table8 tr:nth-child(even){
     background-color: rgb(182, 180, 180);
+}
+.table8 th{
+    background-color: skyblue;
+    color: white;
+    height: 50px;
+    position: sticky;
+    top: -1px;
 }
 /* Responsive Table */
